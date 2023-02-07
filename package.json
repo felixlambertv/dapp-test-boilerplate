@@ -2,17 +2,18 @@
   "name": "dapp-test-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate for DApps testing",
-  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-tag": "mocha --grep"
+  },
   "repository": "https://github.com/felixlambertv/dapp-test-boilerplate.git",
   "author": "Felix Lambert <felix@itsavirus.com>",
   "license": "MIT",
-  "devDependencies": {
-    "prettier": "^2.8.3"
-  },
   "dependencies": {
     "@chainsafe/dappeteer": "^4.2.0",
     "chai": "^4.3.7",
     "dotenv": "^16.0.3",
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.3"
   }
 }
