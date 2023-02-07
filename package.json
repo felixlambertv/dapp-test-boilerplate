@@ -1,0 +1,9 @@
+{
+  "name": "dapp-test-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for DApps testing",
+  "main": "index.js",
+  "repository": "https://github.com/felixlambertv/dapp-test-boilerplate.git",
+  "author": "Felix Lambert <felix@itsavirus.com>",
+  "license": "MIT"
+}
