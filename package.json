@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Boilerplate for DApps testing",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --exit --recursive tests",
     "test-tag": "mocha --grep"
   },
   "repository": "https://github.com/felixlambertv/dapp-test-boilerplate.git",
