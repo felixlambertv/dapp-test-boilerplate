@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "Boilerplate for DApps testing",
   "scripts": {
-    "test": "mocha --exit --recursive tests",
+    "test": "mocha --exit --recursive --timeout 200000 tests",
     "test-tag": "mocha --grep"
   },
   "repository": "https://github.com/felixlambertv/dapp-test-boilerplate.git",
   "author": "Felix Lambert <felix@itsavirus.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@chainsafe/dappeteer": "^4.2.0",
     "chai": "^4.3.7",
     "dotenv": "^16.0.3",
     "mocha": "^10.2.0",
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.3",
+    "puppeteer": "^19.6.3"
   }
 }
