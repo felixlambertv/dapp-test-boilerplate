@@ -4,8 +4,15 @@ This repository contains a pre-configured testing environment for decentralized 
 
 ## Tech
 
-- Puppetter https://github.com/puppeteer/puppeteer
-- Dappeeer https://github.com/decentraland/dappeteer
-- Mocha https://github.com/mochajs/mocha
-- Chai https://github.com/chaijs/chai
-- Dotenv https://github.com/motdotla/dotenv
+-   Puppetter https://github.com/puppeteer/puppeteer
+-   Dappeeer https://github.com/decentraland/dappeteer
+-   Mocha https://github.com/mochajs/mocha
+-   Chai https://github.com/chaijs/chai
+-   Dotenv https://github.com/motdotla/dotenv
+
+## Scripts
+
+| Command              | Explanation                                  |
+| -------------------- | -------------------------------------------- |
+| yarn test            | Run all test on tests folder                 |
+| yarn test-tag {@tag} | Run all test on test folder with certain tag |
