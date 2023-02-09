@@ -26,13 +26,15 @@ describe("Homepage", () => {
         await login(metamask, loginButton);
     });
 
+    beforeEach(async () => {
+        //Sign any unsigned transaction on metamask
+        await commitAllTransaction(metamask);
+    });
+
     afterEach(async () => {
         // Bring back to homepage
         await page.goto(testUrl);
         await page.bringToFront();
-
-        //Sign any unsigned transaction on metamask
-        await commitAllTransaction(metamask);
     });
 
     after(async () => {
