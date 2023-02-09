@@ -4,7 +4,7 @@
   "description": "Boilerplate for DApps testing",
   "scripts": {
     "test": "mocha --exit --recursive --timeout 200000 tests",
-    "test-tag": "mocha --grep"
+    "test-tag": "mocha --exit --recursive --timeout 200000 tests --grep"
   },
   "repository": "https://github.com/felixlambertv/dapp-test-boilerplate.git",
   "author": "Felix Lambert <felix@itsavirus.com>",

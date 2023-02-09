@@ -39,7 +39,7 @@ describe("Homepage", () => {
         await page.close();
     });
 
-    describe("Positive case", () => {
+    describe("Positive case @positive", () => {
         it("should success go to worldmap when have correct network", async () => {
             await page.waitForNavigation();
             const pageUrl = await page.url();
@@ -49,7 +49,7 @@ describe("Homepage", () => {
         });
     });
 
-    describe("Negative case", () => {
+    describe("Negative case @negative", () => {
         it("should showing popup to switch network when the network is not valid", async () => {
             await metamask.switchNetwork("goerli");
             const modal = await page.waitForXPath(
