@@ -10,11 +10,11 @@
   "author": "Felix Lambert <felix@itsavirus.com>",
   "license": "MIT",
   "devDependencies": {
-    "@chainsafe/dappeteer": "^4.2.0",
+    "@chainsafe/dappeteer": "^3.0.0",
     "chai": "^4.3.7",
     "dotenv": "^16.0.3",
     "mocha": "^10.2.0",
     "prettier": "^2.8.3",
-    "puppeteer": "^19.6.3"
+    "puppeteer": "^16.0.0"
   }
 }
